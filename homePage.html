@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Superhero Saviness Main Page</title>
+    <link rel="stylesheet" href="homePage.css">
+    <meta charset="UTF-8">
+  </head>
+
+  <body onload="setInterval(slideEffect, 10000)" >
+    <div class="mainHeader">
+      <img src="superHeroSavLogo.png" alt="Logo for Superhero Savviness" id="superHeroSavLogo">
+      <img src="https://vignette.wikia.nocookie.net/injusticefanon/images/a/a0/JOKER.png/revision/latest?cb=20130525161113" alt="image of superheroes" id="headerIMG">
+      <a href="homePage.html" id="homeLink"> Home </a>
+      <a href="charPage.html" id="charLink"> Characters </a>
+      <a href="moviePage.html" id="movieLink"> Movies </a>
+      <a href="assemblePage.html" id="assembleLink"> Assemble </a>
+    </div>
+
+    <div id="featureBox">
+      <p id="fHero">Featured Hero: Moon Knight </p>
+      <img src="https://www.kawerna.pl/wp-content/uploads/2019/12/Moon-Knight-top.jpg" alt="picture of moon knight" id="featurePic">
+    </div>
+
+    <div id="news">
+      <p id="nTitle"> News</p>
+      <div id="newsArticle1">
+        <img src="https://i1.wp.com/superheronews.com/wp-content/uploads/2018/08/Marvel-Television-logo.png?w=600&quality=80&strip=info&ssl=1" alt="marvel tv logo" id="nA1Pic">
+        <a  href="https://superheronews.com/marvel-tv-is-no-more-projects-absorbed-by-marvel-studios/" id="nA1Title">Marvel TV is no more, projects absorbed by Marvel Studios</a>
+        <p id="nA1Date"> Dec 11, 2019<p>
+        <p id="nA1Description"> The studio that brought us Daredevil, Jessica Jones, and Luke Cage on Netflix is being shut down. According to a report from Deadline, Marvel...<p>
+      </div>
+
+      <div id="newsArticle2">
+        <img src="https://i1.wp.com/superheronews.com/wp-content/uploads/2019/12/wonder-woman-1984-trailer-amps-up-the-action-and-nostalgia-sfM7_JLk-84.jpg?w=1280&quality=80&strip=info&ssl=1" alt="marvel tv logo" id="nA2Pic">
+        <a  href="https://superheronews.com/wonder-woman-1984-trailer/" id="nA2Title">Wonder Woman 1984 trailer amps up the action and nostalgia</a>
+        <p id="nA2Date"> Dec 08, 2019<p>
+        <p id="nA2Description"> We waited and waited and waited, and director Patty Jenkins finally delivered. Boy, did she deliver. The first Wonder Woman 1984 trailer was released on...<p>
+      </div>
+
+      <div id="newsArticle3">
+        <img src="https://i2.wp.com/superheronews.com/wp-content/uploads/2019/11/Disney-Plus-Expanding-the-Universe-logo-01.jpg?w=1000&quality=80&strip=info&ssl=1" alt="marvel expanding" id="nA3Pic">
+        <a  href="https://superheronews.com/disney-plus-marvel-movies/" id="nA3Title">Disney Plus adds additional Marvel content before launch</a>
+        <p id="nA3Date"> Nov 11, 2019<p>
+        <p id="nA3Description"> With only hours to go before Disney Plus launches, more Marvel films and an original show have been added for the launch day. Disney Plus...<p>
+      </div>
+
+
+      </div>
+
+    <script>
+
+    //setInterval(slideEffect(1), 2000);
+
+    var featuredHeroes=['https://www.kawerna.pl/wp-content/uploads/2019/12/Moon-Knight-top.jpg', 'http://www.cheatsheet.com/wp-content/uploads/2017/03/nightwing-in-bludhaven-1.jpg', 'https://cdn.onebauer.media/one/empire-images/features/560ec25e50e6c513721c3cc6/deadpool-comic.jpg?quality=50&width=1000&ratio=1-1&resizeStyle=aspectfit&format=jpg' ]
+    var fHNames=["Moon Knight", "Knight Wing", "Deadpool"]
+    var i = 0;
+    var imageLength = fHNames.length-1;
+
+
+    function slideEffect(){
+      i = i + 1;
+      console.log(i);
+      if(i > imageLength){
+        i=0;
+      }
+    document.getElementById("fHero").innerHTML = "Featured Hero: " + fHNames[i];
+    document.getElementById("featurePic").src = featuredHeroes[i];
+    }
+    function hey(){
+      console.log("hi");
+    }
+
+
+
+
+
+
+    </script>
+
+  </body>
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,340 @@
+body{
+position: relative;
+margin: 0px;
+background-color: rgb(235,235,235);
+}
+
+.mainHeader{
+position: relative;
+background-color: rgb(204, 0, 0);
+width: 100%;
+
+}
+
+#superHeroSavLogo{
+position: relative;
+left: 3%;
+width: 20%;
+height: 10%;
+}
+
+#homeLink{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#charLink{
+position: relative;
+color: white;
+left: 160px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#movieLink{
+position: relative;
+color: white;
+left: 260px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#assembleLink{
+position: relative;
+color: white;
+left: 360px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#headerIMG{
+  position: absolute;
+  width: 10%;
+  left: 80%;
+  bottom: 0%;
+}
+
+#charTitle{
+  font-size: 50px;
+  color: white;
+  left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(204,0,0);
+  width: 20%;
+}
+
+#hallOfFame{
+  position: relative;
+  height: 271px;
+  top: 10px;
+  left: 10%;
+  width: 80%;
+
+}
+
+#con1{
+position: absolute;
+width: 200px;
+height: 271px;
+
+}
+#conPic1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con2{
+position: absolute;
+  width: 200px;
+  height: 271px;
+  left: 40%;
+
+}
+#conPic2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con3{
+position: absolute;
+  width: 200px;
+  height: 271px;
+  right: 0%;
+
+}
+#conPic3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.pTitle{
+  text-align: center;
+  position: absolute;
+  bottom: -7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  width: 100%;
+  background-color: rgba(0,0,0,1);
+}
+
+#dTTitle{
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(204, 0, 0);
+  font-size: 40px;
+
+  left: 10%;
+  width: 20%;
+}
+
+
+#searchHeros{
+  position: relative;
+  top: 200px;
+  left: 10%;
+  width: 80%;
+}
+
+#searchT{
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(204, 0, 0);
+  font-size: 40px;
+
+  left: 10%;
+  width: 40%;
+}
+
+#charSearch{
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 30px;
+}
+input{
+  font-size: 15px;
+}
+input:focus{
+  font-size: 15px;
+}
+
+#heroName{
+  width: 500px;
+  height: 30px;
+  outline-color: rgb(204,0,0);
+  border-radius: 0px;
+}
+
+#searchB{
+  background-color: rgb(204,0,0);
+  color: white;
+  height:40px;
+  border-radius: 60%;
+}
+
+.heroInfo{
+position: relative;
+height: 400px;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+
+.imageInfo{
+  position: absolute;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.nameInfo{
+  position: absolute;
+  color: white;
+  top:-6%;
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 60%;
+  font-size: 30px;
+  background-color: rgb(204,0,0);
+}
+
+
+.bioTitle{
+  position: absolute;
+  left:40%;
+  font-size: 30px;
+  top: 5%;
+}
+.fnInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 16%;
+}
+
+.bpInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 22%;
+}
+
+.oInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 28%;
+}
+
+.pSTitle{
+  position: absolute;
+  left:40%;
+  font-size: 30px;
+  top: 40%;
+}
+
+.iInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 50%;
+}
+
+.sInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 56%;
+}
+
+.sDInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 62%;
+}
+
+.durabilityInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 68%;
+}
+
+.powerInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 74%;
+}
+
+.combatInfo{
+  position: absolute;
+  left:40%;
+  font-size: 20px;
+  top: 80%;
+}
+
+.aTitle{
+  position: absolute;
+  left:70%;
+  font-size: 30px;
+  top: 39%;
+}
+
+.genderInfo{
+  position: absolute;
+  left:70%;
+  font-size: 20px;
+  top: 50%;
+}
+
+.raceInfo{
+  position: absolute;
+  left:70%;
+  font-size: 20px;
+  top: 56%;
+}
+
+.heightInfo{
+  position: absolute;
+  left:70%;
+  font-size: 20px;
+  top: 62%;
+}
+
+.weightInfo{
+  position: absolute;
+  left:70%;
+  font-size: 20px;
+  top: 68%;
+}
+
+.ecInfo{
+  position: absolute;
+  left:70%;
+  font-size: 20px;
+  top: 74%;
+}
+
+.hcInfo{
+  position: absolute;
+  left:70%;
+  font-size: 20px;
+  top: 80%;
+}

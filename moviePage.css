@@ -1,0 +1,302 @@
+body{
+position: relative;
+margin: 0px;
+
+}
+
+.mainHeader{
+position: relative;
+background-color: rgb(204, 0, 0);
+width: 100%;
+
+}
+
+#superHeroSavLogo{
+position: relative;
+left: 3%;
+width: 20%;
+height: 10%;
+}
+
+#homeLink{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#charLink{
+position: relative;
+color: white;
+left: 160px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#movieLink{
+position: relative;
+color: white;
+left: 260px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#assembleLink{
+position: relative;
+color: white;
+left: 360px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#headerIMG{
+  position: absolute;
+  width: 10%;
+  left: 80%;
+  bottom: 0%;
+}
+
+#movTitle{
+  font-size: 50px;
+  color: white;
+  left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(204,0,0);
+  width: 20%;
+}
+
+
+
+
+
+
+#movieCon{
+  position: relative;
+  height: 406.5px;
+  top: 10px;
+  left: 10%;
+  width: 80%;
+  margin-bottom: 50px;
+
+}
+
+#con1{
+position: absolute;
+width: 300px;
+height: 406.5px;
+
+}
+#conPic1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con2{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  left: 37%;
+
+}
+#conPic2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con3{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  right: 0%;
+
+}
+#conPic3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.pTitle{
+  text-align: center;
+  position: absolute;
+  bottom: -7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  width: 100%;
+  background-color: rgba(0,0,0,1);
+}
+
+#dTTitle{
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(204, 0, 0);
+  font-size: 40px;
+
+  left: 10%;
+  width: 20%;
+}
+
+
+
+#movieCon2{
+  position: relative;
+  height: 406.5px;
+  top: 10px;
+  left: 10%;
+  width: 80%;
+  margin-bottom: 50px;
+
+}
+
+#con12{
+position: absolute;
+width: 300px;
+height: 406.5px;
+
+}
+#conPic12{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con22{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  left: 37%;
+
+}
+#conPic22{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con32{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  right: 0%;
+
+}
+#conPic32{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+#movieCon3{
+  position: relative;
+  height: 406.5px;
+  top: 10px;
+  left: 10%;
+  width: 80%;
+  margin-bottom: 50px;
+
+}
+
+#con13{
+position: absolute;
+width: 300px;
+height: 406.5px;
+
+}
+#conPic13{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con23{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  left: 37%;
+
+}
+#conPic23{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con33{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  right: 0%;
+
+}
+#conPic33{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+#movieCon4{
+  position: relative;
+  height: 406.5px;
+  top: 10px;
+  left: 10%;
+  width: 80%;
+  margin-bottom: 50px;
+
+}
+
+#con14{
+position: absolute;
+width: 300px;
+height: 406.5px;
+
+}
+#conPic14{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con24{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  left: 37%;
+
+}
+#conPic24{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#con34{
+position: absolute;
+  width: 300px;
+  height: 406.5px;
+  right: 0%;
+  background-color: rgb(204,0,0);
+  color: white;
+  font-size: 80px;
+  text-align: center;
+
+}
+#conPic34{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

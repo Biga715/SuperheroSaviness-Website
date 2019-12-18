@@ -1,0 +1,225 @@
+body{
+position: relative;
+margin: 0px;
+background-color: rgb(235,235,235);
+
+}
+
+.mainHeader{
+position: relative;
+background-color: rgb(204, 0, 0);
+width: 100%;
+
+}
+
+#superHeroSavLogo{
+position: relative;
+left: 3%;
+width: 20%;
+height: 10%;
+}
+
+#homeLink{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#charLink{
+position: relative;
+color: white;
+left: 160px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#movieLink{
+position: relative;
+color: white;
+left: 260px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#assembleLink{
+position: relative;
+color: white;
+left: 360px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#headerIMG{
+  position: absolute;
+  width: 10%;
+  left: 80%;
+  bottom: 0%;
+}
+
+#featureBox{
+position: relative;
+width: 80%;
+top: 60px;
+height: 550px;
+left: 10%;
+background-color: red;
+
+
+}
+
+#featurePic{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+#fHero{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  position: absolute;
+  top: -3%;
+  z-index: 1;
+  background-color: rgb(204, 0, 0);
+  color: white;
+}
+
+#news{
+  position: relative;
+  top: 80px;
+  left: 10%;
+  width: 80%;
+
+}
+
+#nTitle{
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(204, 0, 0);
+  font-size: 40px;
+
+  left: 10%;
+  width: 20%;
+}
+
+#newsArticle1{
+  position: relative;
+  height: 150px;
+  width: 700px;
+
+}
+
+#nA1Pic{
+  height: 100%
+}
+
+#nA1Title{
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  left: 40%;
+}
+
+#nA1Title:hover{
+  color: rgb(204,0,0);
+}
+#nA1Date{
+  position: absolute;
+  left: 40%;
+  top: 33%;
+}
+
+#nA1Description{
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+
+
+#newsArticle2{
+  position: relative;
+  padding-top: 50px;
+  height: 150px;
+  width: 700px;
+
+}
+
+#nA2Pic{
+  height: 100%;
+  width: 34%;
+}
+
+#nA2Title{
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  left: 40%;
+}
+
+#nA2Title:hover{
+  color: rgb(204,0,0);
+}
+#nA2Date{
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+#nA2Description{
+  position: absolute;
+  left: 40%;
+  top: 63%;
+}
+
+
+
+#newsArticle3{
+  position: relative;
+  height: 150px;
+  width: 700px;
+  padding-top: 50px;
+}
+
+#nA3Pic{
+  height: 100%;
+  width: 34%;
+}
+
+#nA3Title{
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  left: 40%;
+}
+
+#nA3Title:hover{
+  color: rgb(204,0,0);
+}
+#nA3Date{
+  position: absolute;
+  left: 40%;
+  top: 50%;
+}
+
+#nA3Description{
+  position: absolute;
+  left: 40%;
+  top: 63%;
+}

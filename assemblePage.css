@@ -1,0 +1,65 @@
+body{
+position: relative;
+margin: 0px;
+
+}
+
+.mainHeader{
+position: relative;
+background-color: rgb(204, 0, 0);
+width: 100%;
+
+}
+
+#superHeroSavLogo{
+position: relative;
+left: 3%;
+width: 20%;
+height: 10%;
+}
+
+#homeLink{
+position: relative;
+left: 60px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#charLink{
+position: relative;
+color: white;
+left: 160px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#movieLink{
+position: relative;
+color: white;
+left: 260px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#assembleLink{
+position: relative;
+color: white;
+left: 360px;
+bottom: 20px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+}
+
+#headerIMG{
+  position: absolute;
+  width: 10%;
+  left: 80%;
+  bottom: 0%;
+}
