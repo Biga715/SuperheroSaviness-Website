@@ -5,6 +5,13 @@ background-color: rgb(235,235,235);
 
 }
 
+p{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+a{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
 .mainHeader{
 position: relative;
 background-color: rgb(204, 0, 0);
@@ -21,7 +28,7 @@ height: 10%;
 
 #homeLink{
 position: relative;
-left: 60px;
+left: 100px;
 bottom: 20px;
 color: white;
 text-decoration: none;
@@ -31,7 +38,7 @@ font-size: 30px;
 #charLink{
 position: relative;
 color: white;
-left: 160px;
+left: 200px;
 bottom: 20px;
 color: white;
 text-decoration: none;
@@ -41,7 +48,7 @@ font-size: 30px;
 #movieLink{
 position: relative;
 color: white;
-left: 260px;
+left: 300px;
 bottom: 20px;
 color: white;
 text-decoration: none;
@@ -60,8 +67,8 @@ font-size: 30px;
 
 #headerIMG{
   position: absolute;
-  width: 10%;
-  left: 80%;
+  width: 30%;
+  left: 70%;
   bottom: 0%;
 }
 
@@ -222,4 +229,12 @@ background-color: red;
   position: absolute;
   left: 40%;
   top: 63%;
+}
+
+#spidey{
+  height: 600px;
+  position: absolute;
+  top: 57%;
+  right: 0%;
+  z-index: -1;
 }
